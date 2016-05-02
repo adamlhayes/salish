@@ -55,65 +55,66 @@ Stillaguamish Clean Water District,,Local_Commission,http://snohomishcountywa.go
 Stillaguamish Tribe,Natural Resources,Tribe,http://www.stillaguamish.com/naturalresources.asp,
 Stillaguamish Tribe,,Tribe,http://www.stillaguamish.com/,
 Stillaguamish Watershed Council,,Local_Commission,http://www.stillaguamishwatershed.org/,
-Stillwaters Environmental Education Center,,Local_Outreach/Ed,,
-Suquamish Tribe,,Tribe,,
-Surfrider Foundation,,NGO,,
-Taylor Shellfish Farms,,NR_Industry,,
-The Nature Conservancy,,NGO,,
-Thurston Conservation District,,Special_District,,
-Thurston County,Public Health,County_Gov,,
-Thurston County,Board of Commissioners,County_Gov,,
-Thurston County,,County_Gov,,
-Trout Unlimited,,NGO,,
-Urban Wilderness Project,,Local_Outreach/Ed,,
-US Navy,,Federal_Agency,,
-USACOE,,Federal_Agency,,
-USCG,,Federal_Agency,,
-USDA,,Federal_Agency,,
-USEPA,,Federal_Agency,,
-USFS,,Federal_Agency,,
-USFWS,,Federal_Agency,,
-USFWS,Nisqually NWR/Ducks Unlimited,Federal_Agency,,
-UW,,University_Research,,
-UW Tacoma,,University_Research,,
-Vashon Beach Naturalists,,Local_Outreach/Ed,,
-WA State Association of Counties,,County_Gov,,
-Washington Environmental Council,,Regional_Commission,,
-Washington Sea Grant,,University_Research,,
-Washington Trollers Association,,NR_Industry,,
-Water Tenders,,Local_Advocacy,,
-WDFW,,State_Agency,,
-WDNR,,State_Agency,,
-WDOE,Hazardous Waste & Toxics Reduction Program,State_Agency,,
-WDOE,,State_Agency,,
-WDOH,,State_Agency,,
-West Sound Watershed Council,,Local_Commission,,
-Whatcom County,Health Department,County_Gov,,
-Whatcom County,Public Works,County_Gov,,
-Whatcom ECO Net,WWIN,Local_Advocacy,,
-Whatcom MRC,,Local_Commission,,
-Whidbey Conservation District,,Special_District,,
-Whidbey Environmental Action Network,,Local_Advocacy,,
-Whidbey/Camano Land Trust,,Parks_Reserves,,
-Wild Fish Conservancy,,NGO,,
-Wolf Hollow Wildlife Rehabilitation Center,,Local_Outreach/Ed,,
-WRIA 10/12,Lead Entity,Local_Commission,,
-WRIA 2,,Local_Commission,,
-WRIA 2 TAG,,Local_Commission,,
-WRIA 6,,Local_Commission,,
-WRIA 8,,Local_Commission,,
-WRIA 8,PSSRC,Local_Commission,,
-WRIA 9,,Local_Commission,,
-WRIA 9,Watershed Ecosystem Forum,Special_District,,
-WSP,Deception Pass,Parks_Reserves,,
-WSUX,,University_Research,,
-WSUX Beachwatchers,Island County,Local_Advocacy,,
-WSUX Beachwatchers,,Local_Advocacy,,
-WSUX CarbonMasters,,Regional_Advocacy,,
-WSUX Clallam,,University_Research,,
-WSUX Island Waste Wise,,Local_Outreach/Ed,,
-WSUX Jefferson,,University_Research,,
-WSUX Kitsap,,University_Research,,
-WSUX Mason,,University_Research,,
-WWU,,University_Research,,
-WWU/Huxley College on the Peninsulas,,University_Research,,
+Stillwaters Environmental Education Center,,Local_Outreach/Ed,http://www.stillwatersenvironmentalcenter.org/,StillwatersEnv
+Suquamish Tribe,,Tribe,http://www.suquamish.nsn.us/,
+Surfrider Foundation,,NGO,https://www.surfrider.org/,Surfrider
+Taylor Shellfish Farms,,NR_Industry,http://www.taylorshellfishfarms.com/,taylorshellfish
+The Nature Conservancy,,NGO,http://www.nature.org/,nature_org
+Thurston Conservation District,,Special_District,http://www.thurstoncd.com/,ThurstonCD
+Thurston County,Public Health,County_Gov,http://www.co.thurston.wa.us/health/,ThurstonHealth
+Thurston County,Board of Commissioners,County_Gov,http://www.co.thurston.wa.us/bocc/,
+Thurston County,,County_Gov,http://www.co.thurston.wa.us,ThurstonCounty
+Trout Unlimited,,NGO,http://www.tu.org/,TroutUnlimited
+Urban Wilderness Project,,Local_Outreach/Ed,http://www.urbanwildernessproject.org/,
+US Navy,,Federal_Agency,http://www.navy.mil/,USNavy
+USACOE,,Federal_Agency,http://www.usace.army.mil/,USACEHQ
+USCG,,Federal_Agency,http://www.uscg.mil/,USCG
+USDA,,Federal_Agency,http://www.usda.gov,USDA
+USEPA,,Federal_Agency,https://www3.epa.gov/,EPA
+USFS,,Federal_Agency,http://www.fs.fed.us/,forestservice
+USFWS,,Federal_Agency,https://www.fws.gov/,USFWS
+USFWS,Nisqually NWR/Ducks Unlimited,Federal_Agency,https://www.fws.gov/refuge/billy_frank_jr_nisqually/,
+UW,,University_Research,http://www.washington.edu/,UW
+UW Tacoma,,University_Research,https://www.tacoma.uw.edu/,uwtacoma
+Vashon Beach Naturalists,,Local_Outreach/Ed,http://vashonnaturecenter.org,VashonNatureCtr
+WA State Association of Counties,,County_Gov,http://www.wsac.org/,WACounties
+Washington Environmental Council,,Regional_Commission,https://wecprotects.org/,wecprotects
+Washington Sea Grant,,University_Research,https://wsg.washington.edu/,WASeaGrant
+Washington Trollers Association,,NR_Industry,http://www.washingtontrollers.org/,
+Water Tenders,,Local_Advocacy,http://www.watertenders.org/,
+WDFW,,State_Agency,http://wdfw.wa.gov/,WDFW
+WDNR,,State_Agency,http://www.dnr.wa.gov/,waDNR
+WDOE,Hazardous Waste & Toxics Reduction Program,State_Agency,http://www.ecy.wa.gov/programs/hwtr/,
+WDOE,,State_Agency,www.ecy.wa.gov/,EcologyWA
+WDOH,,State_Agency,http://www.doh.wa.gov/,WA_DeptofHealth
+West Sound Watershed Council,,Local_Commission,http://www.westsoundwatersheds.org/,
+Whatcom County,Health Department,County_Gov,http://www.whatcomcounty.us/360/Health-Department,WhatcomCoHealth
+Whatcom County,Public Works,County_Gov,http://www.co.whatcom.wa.us/308/Public-Works,
+Whatcom ECO Net,WWIN,Local_Advocacy,http://www.whatcomwin.org/,
+Whatcom MRC,,Local_Commission,http://www.mrc.whatcomcounty.org/,
+Whidbey Conservation District,,Special_District,http://www.whidbeycd.org/,
+Whidbey Environmental Action Network,,Local_Advocacy,http://www.whidbeyenvironment.org,
+Whidbey/Camano Land Trust,,Parks_Reserves,http://www.wclt.org/,WCLandTrust
+Wild Fish Conservancy,,NGO,http://wildfishconservancy.org/,
+Wolf Hollow Wildlife Rehabilitation Center,,Local_Outreach/Ed,http://wolfhollowwildlife.org/,WolfHollowWRC
+WRIA 10/12,Lead Entity,Local_Commission,http://www.co.pierce.wa.us/index.aspx?NID=2873,
+WRIA 2,,Local_Commission,http://www.ecy.wa.gov/water/wria/02.html,
+WRIA 2 TAG,,Local_Commission,http://www.sanjuanlio.com,
+WRIA 6,,Local_Commission,http://www.ecy.wa.gov/water/wria/06.html,
+WRIA 8,,Local_Commission,http://www.govlink.org/watersheds/8/default.aspx,
+WRIA 8,PSSRC,Local_Commission,http://www.govlink.org/watersheds/8/committees/default.aspx,
+WRIA 9,,Local_Commission,http://www.govlink.org/watersheds/9/,
+WRIA 9,Watershed Ecosystem Forum,Special_District,http://www.govlink.org/watersheds/9/committees/WEF.aspx,
+WSP,Deception Pass,Parks_Reserves,http://parks.state.wa.us/497/Deception-Pass,WAStatePks
+WSUX,,University_Research,http://extension.wsu.edu/,wsuext
+WSUX Beachwatchers,Island County,Local_Advocacy,http://ext100.wsu.edu/island/,
+WSUX Beachwatchers,,Local_Advocacy,http://ext100.wsu.edu/water/,
+WSUX CarbonMasters,,Regional_Advocacy,http://carbonmasters.wsu.edu/,
+WSUX Clallam,,University_Research,http://ext100.wsu.edu/clallam/,
+WSUX Island Waste Wise,,Local_Outreach/Ed,http://ext100.wsu.edu/island/nrs/waste-wise/,
+WSUX Jefferson,,University_Research,http://ext100.wsu.edu/jefferson/,WSUJeffCo
+WSUX Kitsap,,University_Research,http://ext100.wsu.edu/kitsap/,WsuKitsapExt
+WSUX Mason,,University_Research,http://ext100.wsu.edu/mason/,
+WWU,,University_Research,https://www.wwu.edu/,WWU
+WWU/Huxley College on the Peninsulas,,University_Research,https://huxley.wwu.edu/,HuxleyCollege
+,,,http://nwtreatytribes.org/,nwtreatytribes
