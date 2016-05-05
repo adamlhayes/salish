@@ -1,0 +1,113 @@
+PrimaryOrg,ExtraOrg,OrgType,twitter_username
+Association of Washington Cities,,City_Gov,AWCities
+Bainbridge Beach Naturalists,,Local_Advocacy,SustainBain
+Citizens for a Healthy Bay,,Local_Advocacy,chb_tacoma
+City of Arlington,,City_Gov,ArlingtonWA
+City of Bainbridge Island,,City_Gov,cityofbi
+City of Bellevue,,City_Gov,bellevuewa
+City of Bellingham,,City_Gov,CityofBhamWA
+City of Bonney Lake,,City_Gov,CityBonneyLake
+City of Bothell,,City_Gov,CityofBothell
+City of Bremerton,,City_Gov,CityofBremerton
+City of Edmonds,,City_Gov,edmondspw
+City of Everett,,City_Gov,EverettCity
+City of Kirkland,,City_Gov,kirklandgov
+City of Lake Stevens,,City_Gov,LakeStevensWA
+City of Mukilteo,,City_Gov,CityofMukilteo
+City of Newcastle,,City_Gov,CityofNewcastle
+City of Oak Harbor,,City_Gov,OakHarborWA
+City of Olympia,,City_Gov,cityofolympia
+City of Puyallup,,City_Gov,CityofPuyallup
+City of Redmond,,City_Gov,CityOfRedmond
+City of Seattle,,City_Gov,CityofSeattle
+City of Seattle,Public Utilities,City_Gov,SeattleSPU
+City of Sequim,,City_Gov,cityofsequim
+City of Snohomish,,City_Gov,ExperienceSnoho
+Clallam County,,County_Gov,clallamweb
+ENVIRON,,Consulting,ramboll
+Environmental Coaliton of South Seattle,,Local_Advocacy,ECOSS
+Feet First,,Regional_Advocacy,FEETFIRST_WA
+Feiro Marine Life Center,,Local_Outreach/Ed,FeiroMarine
+Friends of the Issaquah Salmon Hatchery,,Local_Advocacy,issaquahfish
+Futurewise,,Regional_Advocacy,FuturewiseWA
+Hood Canal Salmon Enhancement,,Local_Commission,TheSalmonCenter
+King Conservation District,,Special_District,King_CD_WA
+King County,,County_Gov,kcnews
+Kitsap County,,County_Gov,KitsapWa
+Kitsap Public Health District,,Special_District,KitsapHealth
+Long Live the Kings,,NGO,Longlivekings
+Mason County,Public Health,County_Gov,HealthyMC
+National Park Service,Olympic National Park,Federal_Agency,OlympicNP
+NatureBridge,,Local_Outreach/Ed,NatureBridge
+Newcastle Weed Warriors,,Local_Advocacy,WeedWarriors
+Nisqually River Council,,Local_Advocacy,NisquallyRC
+Nisqually Tribe,,Tribe,NisquallyTribe
+NMFS,,Federal_Agency,NOAAFisheries
+NMFS,Habitat Consv Division,Federal_Agency,NOAAHabitat
+NOAA,B-WET/Olympic Coast NMS,Federal_Agency,OlympicCoast
+NOAA,,Federal_Agency,NOAAFish_WCRO
+Nooksack Salmon Enhancement Association,,Local_Advocacy,NooksackSalmon
+Northern Economics,,Consulting,NorthernEcon
+Northwest Indian College,,University_Research,NWIndianCollege
+Northwest Straits Commission,,Regional_Commission,NWStraits
+NOSC,,Local_Commission,SalmonCoalition
+NPS,San Juan Island National Historic Park,Parks_Reserves,sanjuanisnps
+NWFSC,,Federal_Agency,NOAAFish_NWFSC
+NWIFC,,Regional_Commission,nwifc
+Olympic Outdoor Center,,Local_Outreach/Ed,OlympicOutdoor
+OrcaNet,,NGO,orcanetwork
+PNNL,,Federal_Agency,PNNLab
+Point Defiance Zoo & Aquarium,,Local_Outreach/Ed,PtDefianceZoo
+Port of Tacoma,,Special_District,PortofTacoma
+Port Townsend Marine Science Center,,Local_Outreach/Ed,PTMarineScience
+PSP,,State_Agency,PSPartnership
+Puget Sound Institute,,University_Research,PugetSoundInst
+Puget Soundkeeper Alliance ,,Local_Advocacy,PugetSKeeper
+Puyallup Tribe,,Tribe,puyalluptribe
+Resource Media,,NGO,Rmedia
+San Juan County,,County_Gov,SanJuanCountyWA
+SeaDoc Society,,University_Research,SeaDocSociety
+Seattle Aquarium,,Local_Outreach/Ed,SeattleAquarium
+Seattle Audubon,,NGO,SeattleAudubon
+Sierra Club,,NGO,sierraclub
+Skagit County,,County_Gov,SkagitGov
+Skagit Fisheries Enhancement,,Local_Commission,SkagitFisheries
+Skagit Land Trust,,Parks_Reserves,SkagitLandTrust
+Snohomish County,,County_Gov,snocounty
+Sound Experience,,Local_Outreach/Ed,SoundExperience
+SPU,Camp Casey,University_Research,gocampcasey
+Stanford,,University_Research,Stanford
+Stewardship Partners,,Regional_Advocacy,StewardshipP
+Stillwaters Environmental Education Center,,Local_Outreach/Ed,StillwatersEnv
+Surfrider Foundation,,NGO,Surfrider
+Taylor Shellfish Farms,,NR_Industry,taylorshellfish
+The Nature Conservancy,,NGO,nature_org
+Thurston Conservation District,,Special_District,ThurstonCD
+Thurston County,Public Health,County_Gov,ThurstonHealth
+Thurston County,,County_Gov,ThurstonCounty
+Trout Unlimited,,NGO,TroutUnlimited
+US Navy,,Federal_Agency,USNavy
+USACOE,,Federal_Agency,USACEHQ
+USCG,,Federal_Agency,USCG
+USDA,,Federal_Agency,USDA
+USEPA,,Federal_Agency,EPA
+USFS,,Federal_Agency,forestservice
+USFWS,,Federal_Agency,USFWS
+UW,,University_Research,UW
+UW Tacoma,,University_Research,uwtacoma
+Vashon Beach Naturalists,,Local_Outreach/Ed,VashonNatureCtr
+WA State Association of Counties,,County_Gov,WACounties
+Washington Environmental Council,,Regional_Commission,wecprotects
+Washington Sea Grant,,University_Research,WASeaGrant
+WDFW,,State_Agency,WDFW
+WDNR,,State_Agency,waDNR
+WDOE,,State_Agency,EcologyWA
+WDOH,,State_Agency,WA_DeptofHealth
+Whatcom County,Health Department,County_Gov,WhatcomCoHealth
+Whidbey/Camano Land Trust,,Parks_Reserves,WCLandTrust
+Wolf Hollow Wildlife Rehabilitation Center,,Local_Outreach/Ed,WolfHollowWRC
+WSUX,,University_Research,wsuext
+WSUX Jefferson,,University_Research,WSUJeffCo
+WSUX Kitsap,,University_Research,WsuKitsapExt
+WWU,,University_Research,WWU
+WWU/Huxley College on the Peninsulas,,University_Research,HuxleyCollege
