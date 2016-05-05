@@ -1,0 +1,27 @@
+import encoding_fix
+import tweepy
+import time
+from twitter_authentication import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
+
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+
+api = tweepy.API(auth)
+
+output_file = open("followers.csv", "w", encoding="utf-8")
+
+ids = []
+with open('twitter nodes.txt', 'r') as f:
+    nodes = f.readlines()
+    
+for node1 in nodes:
+    follower = api.get_user(node1)
+    for page in tweepy.Cursor(api.friends_ids, screen_name=follower.screen_name).pages():
+        ids.extend(page)
+        time.sleep(60)
+        for node2 in nodes:
+            user = api.get_user(node2)
+            userID = user.id
+            if userID in ids:
+                print(follower.screen_name + " follows " + user.screen_name, file = output_file)
+                time.sleep(60)
