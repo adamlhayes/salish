@@ -1,0 +1,49 @@
+import os.path
+import csv
+
+#use excel to transform 1st links column to organization name    
+
+output_file2 = open("hyperlinks_wget_URLs.csv", "w", encoding="utf-8")
+output_file3 = open("hyperlinks_wget_valued.csv", "w", encoding="utf-8")
+output_file1 = open("hyperlinks_wget.csv", "w", encoding="utf-8")
+
+count = 0
+
+to_url = []
+to_name = []
+f = open('toseeds.csv', 'rt')
+reader = csv.reader(f, delimiter=',')
+for row in reader:
+    to_url.append(row[0])
+    to_name.append(row[1])        
+print(to_url)
+print(to_name)
+
+allEdges = []
+f = open('from matched hyperlinks.csv', 'rt')
+reader = csv.reader(f, delimiter=',')
+for row in reader:
+    for url in to_url:
+        if url in row[1]:
+            tail = row[0]
+            message1 = tail + "," + url
+            print(message1)
+            i1 = to_url.index(url)
+            head = to_name[i1]
+            message2 = tail + "," + head
+            allEdges.append(message2)
+            raw_to_url = row[1]
+            message3 = message2 + "," + raw_to_url
+            print(message3, file = output_file2)            
+            if allEdges.count(message2) == 1:
+                print(message2, file = output_file1)
+
+duplicates = []        
+for edge in allEdges:
+    count = allEdges.count(edge)
+    message4 = edge + "," + str(count)
+    if message4 in duplicates:
+        continue
+    duplicates.append(message4)
+    print(message4)
+    print(message4, file = output_file3)
