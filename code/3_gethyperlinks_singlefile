@@ -1,0 +1,30 @@
+from bs4 import BeautifulSoup
+import requests
+import os
+import pandas as pd
+import csv
+
+output_file = open("all hyperlinks.csv", "a", encoding="utf-8")
+
+
+with open('links_folder list.txt', 'r') as f:
+    seeds = f.readlines()
+    
+direct = "wget level_1"
+sub1 = "www.jeffersoncountypublichealth.org"
+file = "index.php@clean-water-district"
+
+#if only a single page:
+my_file = open(os.path.join(direct, sub1, file), 'r', encoding="utf8", errors="ignore")
+page_text = my_file.read()   
+soup = BeautifulSoup(page_text.encode('UTF-8'), 'lxml')
+for line in soup.find_all("a"):
+    try:
+        href = str(line.get('href'))
+        if href.startswith("http", 0, 4):
+            if "twitter" not in href and "facebook" not in href and "vimeo" not in href and "instagram" not in href and "flickr" not in href and "youtube" not in href and "linkedin" not in href:
+                output = "http://" + sub1 + "/index.php?clean-water-district" + "," + href
+                print(output)
+                print(output, file = output_file)
+    except:
+        pass
