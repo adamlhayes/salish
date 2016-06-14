@@ -1,0 +1,21 @@
+from bs4 import BeautifulSoup
+import requests
+import os
+import pandas as pd
+import csv
+import urllib.request
+
+output_file = open("all hyperlinks.csv", "a", encoding="utf-8")
+
+base = "https://huxley.wwu.edu/"
+url = "https://huxley.wwu.edu/internship-senior-thesis-senior-project-and-international-study-information"
+webpage = urllib.request.urlopen(url)
+page_text = webpage.read() 
+soup = BeautifulSoup(page_text.decode('utf-8','ignore'), "lxml")
+for line in soup.find_all("a"):
+    href = str(line.get('href'))
+    if href.startswith("http", 0, 4):
+        if "twitter" not in href and "facebook" not in href and "vimeo" not in href and "instagram" not in href and "flickr" not in href and "youtube" not in href and "linkedin" not in href:
+            output = base + "," + href
+            print(output)
+            print(output, file = output_file)
