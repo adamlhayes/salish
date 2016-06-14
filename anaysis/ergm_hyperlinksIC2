@@ -1,0 +1,54 @@
+setwd("C:/Users/alhayes/Desktop/salish/analysis")
+load("hyperlinksICL2.RData")
+load("netHypIC2.RData")
+load("NetworkReady.RData")
+
+require(statnet)
+require(sna)
+
+#Baseline estimations ofhypIC2
+est1 <- hypIC2 ~ edges + mutual
+mod1 <- ergm(est1)
+summary(mod1)
+
+est2 <- hypIC2 ~ edges + mutual + nodematch("OrgType") + edgecov(hypIC2, attrname = "surveyLink")
+mod2 <- ergm(est2)
+summary(mod2)
+gof.mod2 <- gof.ergm(mod2)
+plot.gofobject(gof.mod2)
+
+est3 <- hypIC2 ~ edges + mutual + nodematch("OrgType")+ nodeifactor("OrgType_HiRep") + edgecov(net_hypIC2)
+mod3 <- ergm(est3)
+summary(mod3)
+gof.mod3 <- gof.ergm(mod3)
+plot.gofobject(gof.mod3)
+
+est4 <- hypIC2 ~ edges + mutual + idegree(0) + nodematch("OrgType")+ nodeifactor("OrgType_HiRep")
+mod4 <- ergm(est4)
+summary(mod4)
+gof.mod4 <- gof.ergm(mod4)
+plot.gofobject(gof.mod4)
+
+est5 <- hypIC2 ~ edges + mutual + nodematch("OrgType")+ nodeifactor("OrgType_HiRep")
+mod5 <- ergm(est5)
+summary(mod5)
+gof.mod5 <- gof.ergm(mod5)
+plot.gofobject(gof.mod5)
+
+est6 <- hypIC2 ~ density + mutual + odegree(0) + nodematch("OrgType")+ nodeifactor("OrgType_HiRep")
+mod6 <- ergm(est6)
+summary(mod6)
+gof.mod6 <- gof.ergm(mod6)
+plot.gofobject(gof.mod6)
+
+est7 <- hypIC2 ~ edges + mutual +twopath +gwidegree(0.25, fixed = TRUE)+
+  gwesp(0.25, fixed = TRUE) + odegree(0) + nodematch("OrgType")+ nodeifactor("OrgType_HiRep")
+mod7 <- ergm(est7)
+controlmod7<-ergm(est7,control=control.ergm(
+  Step.MCMC.samplesize=10000,
+  main.method="Stepping", MCMLE.metric="lognormal",
+  Step.gridsize=1000,
+  Step.maxit=20))
+summary(mod7)
+gof.mod7 <- gof.ergm(mod7)
+plot.gofobject(gof.mod7)
