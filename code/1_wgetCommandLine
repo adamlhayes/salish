@@ -1,9 +1,0 @@
-$upload = Import-Csv "seed urls.csv"
-
-foreach ($row in $upload) {$urls += ,$row.webpage}
-
-$urls = $urls | ? {$_}
-
-cd ".\wgetlevel_1"
-
-foreach ($url in $urls) {wget.exe --recursive --level=1 --no-check-certificate --reject=pdf --reject=img --reject=gif --reject=jpg --reject=png $url}
