@@ -1,0 +1,9 @@
+$upload = Import-Csv "names.csv"
+
+foreach ($row in $upload) {$urls += ,$row.webpage}
+
+$urls = $urls | ? {$_}
+
+cd ".\wget_files"
+
+foreach ($url in $urls) {wget.exe --recursive --level=1 --no-check-certificate --reject=pdf --reject=img --reject=gif --reject=jpg --reject=png $url}
